@@ -68,21 +68,41 @@ body{
 
 .SegundaSecao{
     background-color: var(--dark-blue);
-    padding: 1rem;
+    padding: 1.5rem 1.1rem;
+    margin-bottom: 4rem;
 }
 
 .SegundaSecao h2{
     color: var(--yellow);
+    font-size: 2rem;
+    line-height: 100%;
+    margin-bottom: 2.2rem;
 }
 
 .SegundaSecao h3{
     color: var(--almost-white);
+    font-size: 1.35rem;
+    line-height: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
 }
 
 .SegundaSecao p{
-    color: var(--gunmetal);
+    color: var(--silver);
+    font-size: 0.935rem;
+    line-height: 1.625rem;
 }
 
-.SegundaSecao div+div{
-    border-top: 1px solid red;
+.SegundaSecao div{
+    padding-bottom: 1.75rem;
 }
+
+.SegundaSecao div:nth-of-type(3){
+    padding-bottom: 0px;
+}
+
+.SegundaSecao div + div{
+    border-top: 1px solid var(--gunmetal);
+    padding-top: 1.75rem;
+}
+
