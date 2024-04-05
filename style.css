@@ -29,16 +29,16 @@ body{
     background: none;
 }
 
-.PrimeiraSecao{
+.PrimeiraSessao{
     margin-bottom: 4rem;
 }
 
-.PrimeiraSecao img{
+.PrimeiraSessao img{
     width: 100%;
     margin-bottom: 1.5rem;
 }
 
-.PrimeiraSecao h1{
+.PrimeiraSessao h1{
     color: var(--dark-blue);
     font-weight: 800;
     font-size: 2.5rem;
@@ -46,7 +46,7 @@ body{
     margin-bottom: 1rem;
 }
 
-.PrimeiraSecao p{
+.PrimeiraSessao p{
     color: var(--gunmetal);
     font-weight: 400;
     font-size: 0.9375rem;
@@ -54,7 +54,7 @@ body{
     margin-bottom: 1.5rem;
 }
 
-.PrimeiraSecao button{
+.PrimeiraSessao button{
     padding: 1rem 2rem;
     background-color: var(--vermillion);
     border: none;
@@ -66,20 +66,20 @@ body{
     line-height: 0.5rem;
 }
 
-.SegundaSecao{
+.SegundaSessao{
     background-color: var(--dark-blue);
     padding: 1.5rem 1.1rem;
     margin-bottom: 4rem;
 }
 
-.SegundaSecao h2{
+.SegundaSessao h2{
     color: var(--yellow);
     font-size: 2rem;
     line-height: 100%;
     margin-bottom: 2.2rem;
 }
 
-.SegundaSecao h3{
+.SegundaSessao h3{
     color: var(--almost-white);
     font-size: 1.35rem;
     line-height: 1.5rem;
@@ -87,21 +87,21 @@ body{
     margin-bottom: 0.5rem;
 }
 
-.SegundaSecao p{
+.SegundaSessao p{
     color: var(--silver);
     font-size: 0.935rem;
     line-height: 1.625rem;
 }
 
-.SegundaSecao div{
+.SegundaSessao div{
     padding-bottom: 1.75rem;
 }
 
-.SegundaSecao div:nth-of-type(3){
+.SegundaSessao div:nth-of-type(3){
     padding-bottom: 0px;
 }
 
-.SegundaSecao div + div{
+.SegundaSessao div + div{
     border-top: 1px solid var(--gunmetal);
     padding-top: 1.75rem;
 }
