@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 :root{
     --almost-white: #FFFDFA;
@@ -16,3 +17,51 @@ body{
     background-color: var(--almost-white);
 }
 
+.HeaderMobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.HeaderMobile button{
+    border: none;
+    background: none;
+}
+
+.PrimeiraSecao{
+    margin-bottom: 4rem;
+}
+
+.PrimeiraSecao img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.PrimeiraSecao h1{
+    color: var(--dark-blue);
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 100%;
+    margin-bottom: 1rem;
+}
+
+.PrimeiraSecao p{
+    color: var(--gunmetal);
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    margin-bottom: 1.5rem;
+}
+
+.PrimeiraSecao button{
+    padding: 1rem 2rem;
+    background-color: var(--vermillion);
+    border: none;
+    text-transform: uppercase;
+    color: var(--almost-white);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.275rem;
+    line-height: 0.5rem;
+}
