@@ -65,3 +65,24 @@ body{
     letter-spacing: 0.275rem;
     line-height: 0.5rem;
 }
+
+.SegundaSecao{
+    background-color: var(--dark-blue);
+    padding: 1rem;
+}
+
+.SegundaSecao h2{
+    color: var(--yellow);
+}
+
+.SegundaSecao h3{
+    color: var(--almost-white);
+}
+
+.SegundaSecao p{
+    color: var(--gunmetal);
+}
+
+.SegundaSecao div+div{
+    border-top: 1px solid red;
+}
