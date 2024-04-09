@@ -17,6 +17,16 @@ body{
     background-color: var(--almost-white);
 }
 
+body.menu-open::before{
+    content: "";
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 26, 0.5);
+    top: 0;
+    left: 0;
+}
+
 .HeaderMobile{
     display: flex;
     justify-content: space-between;
@@ -27,6 +37,34 @@ body{
 .HeaderMobile button{
     border: none;
     background: none;
+    width: fit-content;
+}
+
+.HeaderMobile nav button{
+    align-self: flex-end;
+    margin-bottom: 4rem;
+}
+
+.HeaderMobile nav{
+    position: fixed;
+    background-color: var(--almost-white);
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 16rem;
+    z-index: 999;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.HeaderMobile nav a{
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
 }
 
 .PrimeiraSessao{
