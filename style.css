@@ -129,4 +129,11 @@ body{
     font-size: 1.125rem;
     font-weight: 800;
     line-height: 1.5rem;
+    margin-block: 0.6rem;
+}
+
+.TerceiraSessao p{
+    color: var(--gunmetal);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
 }
