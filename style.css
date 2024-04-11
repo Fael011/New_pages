@@ -17,7 +17,7 @@ body{
     background-color: var(--almost-white);
 }
 
-body.menu-open::before{
+body.escurecer::before{
     content: "";
     position: fixed;
     height: 100vh;
@@ -45,10 +45,11 @@ body.menu-open::before{
     margin-bottom: 4rem;
 }
 
+
 .HeaderMobile nav{
     position: fixed;
     background-color: var(--almost-white);
-    right: 0;
+    right: -16rem;
     top: 0;
     height: 100vh;
     width: 16rem;
@@ -58,6 +59,13 @@ body.menu-open::before{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+
+    transition: 0.7s;
+}
+
+.HeaderMobile nav.openMenu{
+    right: 0;
+    transition: 0.7s;
 }
 
 .HeaderMobile nav a{
