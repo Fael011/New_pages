@@ -205,12 +205,26 @@ main{
         grid-column: 1 / 3;
 
         display: grid;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 1fr;
+        gap: 1.75rem;
+    }
+
+    .PrimeiraSessao picture{
+        grid-column: 1 / 3; 
     }
 
     .PrimeiraSessao img{
-        grid-column: 1 / 3; 
-    }    
+        margin: 0;
+    }
+
+    .PrimeiraSessao h1{
+        font-size: 3.5rem;
+    }
+
+    .SegundaSessao h2{
+        font-size: 2.5rem;
+    }
+
     header > button{
         display: none;
     }
