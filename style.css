@@ -27,26 +27,29 @@ body.escurecer::before{
     left: 0;
 }
 
-.HeaderMobile{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+
+    max-width: 1100px;
+    margin-inline: auto;
 }
 
-.HeaderMobile button{
+header button{
     border: none;
     background: none;
     width: fit-content;
 }
 
-.HeaderMobile nav button{
+header nav button{
     align-self: flex-end;
     margin-bottom: 4rem;
 }
 
 
-.HeaderMobile nav{
+header nav.mobile{
     position: fixed;
     background-color: var(--almost-white);
     right: -16rem;
@@ -63,18 +66,25 @@ body.escurecer::before{
     transition: 0.7s;
 }
 
-.HeaderMobile nav.openMenu{
+header nav.mobile.openMenu{
     right: 0;
     transition: 0.7s;
 }
 
-.HeaderMobile nav a{
+header .mobile a{
     text-decoration: none;
     color: var(--dark-blue);
     font-size: 1.125rem;
     line-height: 1.5rem;
 }
 
+.desktop{
+    display: none;
+}
+main{
+    max-width: 1100px;
+    margin-inline: auto;
+}
 .PrimeiraSessao{
     margin-bottom: 4rem;
 }
@@ -182,4 +192,42 @@ body.escurecer::before{
     color: var(--gunmetal);
     font-size: 0.9375rem;
     line-height: 1.625rem;
+}
+
+@media (min-width: 1100px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.75rem;
+    }
+
+    .PrimeiraSessao{
+        grid-column: 1 / 3;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .PrimeiraSessao img{
+        grid-column: 1 / 3; 
+    }    
+    header > button{
+        display: none;
+    }
+
+    header > .desktop{
+        display: flex;
+    }
+
+    header .desktop{
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    header .desktop a{
+        color: var(--gunmetal);
+        font-size: 0.9375rem;
+        line-height: 1.625rem;
+        text-decoration: none;
+    }
 }
